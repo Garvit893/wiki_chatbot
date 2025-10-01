@@ -41,4 +41,7 @@ Just enter a Wikipedia URL, let the app fetch the article, and enjoy context-awa
 
 ---
 
-*Made with ❤️ by (your name or GitHub handle)*
+*Made with ❤️ by:*
+#### Garvit Ghiya
+**[LinkedIn](https://www.linkedin.com/in/garvit-ghiya/)**
+**[GitHub](https://github.com/Garvit893)**
