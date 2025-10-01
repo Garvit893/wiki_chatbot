@@ -1,15 +1,14 @@
 import streamlit as st
 import google.generativeai as genai
 import requests
-import os
 
-# --- Get API key from environment (set this on Streamlit Cloud, NEVER hardcode!) ---
-api_key = os.environ.get("GEMINI_API_KEY")
+# --- Get API key from Streamlit secrets.toml (section: [gemini]) ---
+api_key = st.secrets["gemini"]["api_key"]
 if not api_key:
     st.error("API NOT FOUND")
     st.stop()
 genai.configure(api_key=api_key)
-# -----------------------------------------------------------------------------------
+# ---------------------------------------------------------------
 
 model = genai.GenerativeModel("models/gemini-2.5-flash")  # Use a valid Gemini model
 
