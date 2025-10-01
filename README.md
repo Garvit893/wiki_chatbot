@@ -5,9 +5,15 @@ Just enter a Wikipedia URL, let the app fetch the article, and enjoy context-awa
 
 ---
 
+## App Link
+
+[👉 Try the Wikipedia Chatbot here!](https://garvit-wiki-chatbot.streamlit.app/)
+
+---
+
 ## How to Use
 
-1. **Open the app link** provided by the maintainer (you may see this hosted on Streamlit Cloud).
+1. **Open the app link** above.
 
 2. **Paste a Wikipedia article URL** (for example: `https://en.wikipedia.org/wiki/Adrian_Carton_de_Wiart`) into the input field, then click to load.
 
@@ -42,6 +48,7 @@ Just enter a Wikipedia URL, let the app fetch the article, and enjoy context-awa
 ---
 
 *Made with ❤️ by:*
-#### Garvit Ghiya
-**[LinkedIn](https://www.linkedin.com/in/garvit-ghiya/)**
-**[GitHub](https://github.com/Garvit893)**
+
+#### Garvit Ghiya  
+[LinkedIn](https://www.linkedin.com/in/garvit-ghiya/)  
+[GitHub](https://github.com/Garvit893)
