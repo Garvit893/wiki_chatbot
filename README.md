@@ -15,7 +15,7 @@ Just enter a Wikipedia URL, let the app fetch the article, and enjoy context-awa
    The article content is displayed in a text box; feel free to adjust or trim it as needed.
 
 4. **Ask your question**  
-   Type your question into the question box and click "Ask Gemini".
+   Type your question into the question box and click "Enter".
 
 5. **Read the AI answer**  
    Gemini will answer solely using the information from the loaded Wikipedia article.
