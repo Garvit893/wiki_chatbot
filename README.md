@@ -41,10 +41,4 @@ Just enter a Wikipedia URL, let the app fetch the article, and enjoy context-awa
 
 ---
 
-## License
-
-MIT License — see the `LICENSE` file.
-
----
-
 *Made with ❤️ by (your name or GitHub handle)*
