@@ -6,7 +6,7 @@ import os
 # --- Get API key from environment (set this on Streamlit Cloud, NEVER hardcode!) ---
 api_key = os.environ.get("GEMINI_API_KEY")
 if not api_key:
-    st.error("GEMINI_API_KEY secret not found. Set it on Streamlit Cloud after deploying.")
+    st.error("API NOT FOUND")
     st.stop()
 genai.configure(api_key=api_key)
 # -----------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ def fetch_wikipedia_content(url):
             "titles": title,
             "format": "json"
         }
-        headers = {"User-Agent": "Wikipedia-Gemini-Chatbot/1.0"}
+        headers = {"User-Agent": "Wikipedia-Chatbot/1.0"}
         response = requests.get(endpoint, params=params, headers=headers)
         response.raise_for_status()
         pages = response.json()["query"]["pages"]
@@ -61,13 +61,13 @@ def main():
 
     context = st.text_area("Wikipedia article text (edit if needed):", value=article_text, height=300)
     question = st.text_input("Your question:")
-    if st.button("Ask Gemini"):
+    if st.button("Enter"):
         if not context.strip():
             st.warning("Paste or load Wikipedia text first!")
         elif not question.strip():
             st.warning("Enter your question.")
         else:
-            with st.spinner("Getting answer from Gemini..."):
+            with st.spinner("Getting answers..."):
                 answer = gemini_qa(context[:15000], question)  # Truncate to safe context limit
                 st.markdown(f"**Answer:**\n\n{answer}")
 
