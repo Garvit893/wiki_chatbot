@@ -1,4 +1,4 @@
-# Wikipedia Gemini Chatbot 🤖
+# Wikipedia Chatbot 🤖
 
 A simple Streamlit app to ask questions about any Wikipedia article using Google's Gemini LLM!  
 Just enter a Wikipedia URL, let the app fetch the article, and enjoy context-aware answers from Gemini.
